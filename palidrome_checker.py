@@ -11,4 +11,4 @@ def check_palidrome(word: str) -> bool:
 
 if __name__ == "__main__":
     user_input = input("Enter a palidrome: ")
-    print(check_palidrome(user_input.lower()))
+    print(f"is {user_input} a palidrome -> {check_palidrome(user_input.lower())}")
